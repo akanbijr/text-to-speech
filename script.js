@@ -30,7 +30,7 @@ function texttospeech(text) {
 
 speechbtn.addEventListener('click', (e) => {
     e.preventDefault()
-    if (textarea.value != '') {
+    if (textarea.value !== '') {
         texttospeech(textarea.value)
     }
 
@@ -50,8 +50,7 @@ speechbtn.addEventListener('click', (e) => {
                 speechbtn.innerHTML = 'Convert To Speech'
             }
         })
-        else {
-            speechbtn.innerHTML = 'Convert To Speech'
-        }
+    } else {
+        speechbtn.innerHTML = 'Convert To Speech'
     }
 })

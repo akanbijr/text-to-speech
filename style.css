@@ -69,13 +69,19 @@ main {
 }
 
 .submit {
-    background-color: rgba(92, 55, 255, 0.979);
+    background-color: #7859ff;
     color: white;
     width: 20rem;
     border-radius: 0.3rem;
     font-size: 1.2rem;
     border: none;
     padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: rgba(92, 55, 255, 0.979);
 }
 
 body {
